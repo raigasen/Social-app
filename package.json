@@ -1,0 +1,40 @@
+{
+  "name": "cs-555-group-6",
+  "version": "1.0.0",
+  "description": "SociaMediaAppForParents",
+  "main": "app.js",
+  "scripts": {
+    "start": "SET NODE_ENV=dev && node app.js",
+    "test": "mocha --timeout 10000",
+    "startDev": "nodemon app.js"
+  },
+  "author": "cs-555-group-6",
+  "license": "ISC",
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@material-ui/core": "^4.12.4",
+    "@mui/base": "^5.0.0-alpha.103",
+    "@mui/joy": "^5.0.0-alpha.51",
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "imgur": "^2.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mock-session": "^0.0.5",
+    "mongodb": "^4.10.0",
+    "mongoose": "^6.7.2",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.8.0",
+    "nodemon": "^2.0.20",
+    "passport-stub": "^1.1.1",
+    "supertest": "^6.3.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "chai-http": "^4.3.0",
+    "mocha": "^10.1.0"
+  }
+}
